@@ -1,0 +1,44 @@
+body{
+	background-color: #1a3365;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+#container{
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black;
+	background-color: #0066cc;	
+}
+
+#form1{
+	margin: 2em 3em;
+}
+
+.form-input{
+	width: 100%;
+	margin: 1em 0px;
+}
+
+.inp{
+	width: inherit;
+	height: 40px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.cstm_border{
+	color: white;
+}
+
+#cstm_hobbies{
+	height: 129px;
+}
+
+#submit{
+	background-color: red;
+	color: white;
+}

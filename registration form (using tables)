@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Resgistration form</title>
-	<style>
+	<style>  <!-- styles -->
 		body{
 			border: 5px solid grey;
 			margin: 50px;

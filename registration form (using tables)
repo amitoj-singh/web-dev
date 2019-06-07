@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resgistration form</title>
+	<style>
+		body{
+			border: 5px solid grey;
+			margin: 50px;
+			background-color: #66e0ff;
+		}
+		header{
+			text-align: center;
+		}
+		table{
+			margin: auto;
+			margin-bottom: 30px;
+		}
+		table, tr, td{
+			border: 1px solid black;
+			padding: 10px;
+		}
+
+		td{
+			width: 20%;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Student Registration Form</h1>
+	</header>
+	
+	<form action="registration form.html" method="post">
+
+
+		<table>
+			<tr><td>Name</td> <td><input type="text" name="name"></td></tr>
+			<tr><td>profile photo</td> <td><input type="file" name="profile_pic"> </td></tr>
+			<tr><td>Father's Name</td> <td> <input type="text" name="Father_name"></td></tr>
+			<tr><td>Postal Address</td> <td> <input type="text" name="postal_address"></td></tr>
+			<tr><td>Personal Address</td> <td> <input type="text" name="personal_address"></td></tr>
+			<tr><td>Gender</td> <td> <input type="radio" name="Gender" value="Male"> Male 
+				<input type="radio" name="Gender" value="Female"> Female
+				<input type="radio" name="Gender" value="other"> other</td></tr>
+			<tr><td>city </td>
+				<td><select name="city">
+					<option>select</option>
+					<option value="Mohali">Mohali</option>
+					<option value="Chandigarh">Chandigarh</option>
+					<option value="Zirakpur">Zirakpur</option>
+					<option value="Panchkula">Panchkula</option>
+				</select></td></tr>
+			<tr><td>Course </td>
+				<td><select name="course">
+					<option>select</option>
+					<option value="B.Sc">B.Sc</option>
+					<option value="M.Sc">M.Sc</option>
+					<option value="B.Tech">B.Tech</option>
+					<option value="M.Tech">M.Tech</option>
+				</select></td></tr>
+			<tr><td>Hobbies</td>
+				<td><input type="checkbox" name="hobby1" value="outdoor games"> Outdoor games <br>
+					<input type="checkbox" name="hobby2" value="indoor games"> Indoor games <br>
+					<input type="checkbox" name="hobby3" value="coding"> Coding <br>
+					<input type="checkbox" name="hobby4" value="riding"> Riding <br>
+					<input type="checkbox" name="hobby5" value="Other"> Other</td>
+			</tr>
+			<tr><td>District </td>
+				<td><select name="course">
+					<option>select</option>
+					<option value="Mohali">Mohali</option>
+					<option value="Chandigarh">Chandigarh</option>
+					<option value="Zirakpur">Zirakpur</option>
+					<option value="Panchkula">Panchkula</option>
+				</select></td></tr>
+			<tr><td>State </td>
+				<td><select name="State">
+					<option>select</option>
+					<option value="Andhra Pradesh">Andhra Pradesh</option>
+					<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+					<option value="Assam">Assam</option>
+				</select></td></tr>
+			<tr><td>Pincode</td> <td> <input type="number" name="pincode"></td></tr>
+			<tr><td>Email ID </td> <td><input type="email" name="Email"></td></tr>
+			<tr><td>DOB </td><td><input type="date" name="DOB"></td></tr>
+			<tr><td>Mobile No. </td><td><input type="number" name="Mobile_number" size="10"></td></tr>
+			<tr><td><input type="reset"></td>
+			<td><input type="submit" value="Submit form"></td></tr>
+		</table>
+	</form>
+</body>
+</html>

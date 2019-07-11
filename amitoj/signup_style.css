@@ -1,0 +1,106 @@
+body{
+	background-color: #bf8040;
+	font-family: 'Helvetica', 'georgia', serif, sans-serif;
+}
+
+header{
+	text-align: center;
+}
+
+header h1{
+	font-size: 3em;
+    text-decoration: underline;
+    text-shadow: 1px 3px 5px black;
+    font-family: -webkit-pictograph;
+}
+
+h3 a{
+	color: black;
+}
+
+#container{
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid #bf8040;
+	background-color: #dfbf9f;
+	border-radius: 20px;
+}
+
+#form1{
+	margin: 2em 3em;
+}
+
+.section{
+	margin-bottom: 2em;
+	border: 5px solid #bf8040;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 8px 1px black;
+}
+
+h2{
+	border: 10px solid #bf8040;
+	cursor: pointer;
+}
+
+.form-input{
+	width: 100%;
+	margin: 1em 0px;
+	background-color: rgb(201, 138, 79, 0.4);
+	border-radius: 20px;
+}
+
+.inp{
+	width: inherit;
+	height: 40px;
+	padding-left: 10px;
+	box-sizing: border-box;	
+	background-color: rgb(201, 138, 79, 0.4);
+	border-color: #dfbf9f;
+	border-style: unset;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.inp:focus{
+	outline: unset;
+	border: 1px solid rgb(133, 173, 173);
+}
+
+.cstm{
+	color: black;
+	width: inherit;
+	padding-left: 10px;
+}
+
+#my_img_field{
+	
+}
+
+button{
+	background-color: rgb(133, 173, 173) !important;
+	color: white;
+	color: black;
+	padding: 0px 20px 0px 20px !important;
+	font-weight: bold;
+}
+
+.error1, .error2, .error3{
+	display: inline-block;
+	color: red;
+	margin: 0px;
+	padding: 10px 0px 0px 10px;
+	font-family: helvetica, sans-serif, serif;
+}
+
+#err_div{
+	color: white;
+	font-family: helvetica, sans-serif, serif;
+	text-align: center;
+	background-color: rgb(255, 71, 26, 0.5);
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 50px;
+	max-width: 50%;
+	padding-top: 10px;	
+}
